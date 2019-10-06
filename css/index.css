@@ -1,40 +1,80 @@
+
 .navbar {
     background-color:#3c4245;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+.openiss{
+    font-family: 'Raleway', sans-serif;
+    /* background-color: black; */
+    display: inline-block;
+    /* border: 1px solid #333333; */
 }
 
 .issueCard {
     display: grid;
     grid-template-columns: auto;
+    font-family: 'Raleway', sans-serif;
+
 }
 .issue-card {
-    background-color: #87aeaf;
+    background-color: white;
     padding: 10px;
-    color:white;
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    
+
 }
 
 .issue-card > h4 > a {
-    color:white;
-    text-decoration-line: underline;
+    color:black;
+    text-decoration-line: none;
+
+}
+.issue-card > h4 > a:hover{
+    color:rgb(0, 88, 122);
+    text-decoration-line: none;
+    font-weight: bold;
 
 }
 .issue-card > p > a {
-    text-decoration-line: underline;
-    color:blue;
+    text-decoration-line: none;
+    color:white;
     margin-left: 5px;
     margin-right: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgb(0, 88, 122);
+    font-size: 16spx;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.issue-card > p > a:hover{
+    text-decoration-line: none;
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgb(15, 115, 155);
+    font-size: 16spx;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
 }
 .issue-card > p {
     margin-bottom: 2px;
     font-size: 12px;
+    padding: 16px;
 
 }
 
 .footer {
     background-color: #3c4245;
-    position: absolute;
+    position: relative;
     bottom: 0;
-    height: 100px;
+    height: 60px;
     width: 100%;
     padding:20px;
     font-size: 16px;
+    text-align: center;
 }
